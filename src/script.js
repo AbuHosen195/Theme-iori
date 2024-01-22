@@ -1,3 +1,14 @@
+// sticky top menu js code
+const stickyTop = document.querySelector("nav");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    stickyTop.classList.add("is-sticky");
+  } else {
+    stickyTop.classList.remove("is-sticky");
+  }
+});
+
+
 $(document).ready(function () {
   $(".search-post").click(function () {
     $(".search-form-top-right").toggle();

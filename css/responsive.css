@@ -60,8 +60,9 @@
     margin-bottom: 0 !important;
   }
   h1 {
-    font-size: 26px !important;
+    font-size: 25px !important;
     line-height: 30px !important;
+    margin-bottom: 25px !important;
   }
   h2 {
     font-size: 25px;
@@ -78,8 +79,8 @@
   }
 
   .font-lg {
-    line-height: 23px !important;
-    font-size: 18px !important;
+    line-height: 20px !important;
+    font-size: 14px !important;
   }
   .box-radius-bottom {
     padding: 10px 0 0 0 !important;
@@ -104,8 +105,8 @@
   }
   .p-plan h2 {
     margin-top: 10px;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .p-plan {
     background-color: #cde2e7;
@@ -150,5 +151,146 @@
   }
   .sm-block {
     display: block;
+  }
+
+  /* about page responsive css start */
+  h2 {
+    font-size: 25px;
+    line-height: 35px;
+    width: 100%;
+  }
+  .sm-none {
+    display: none !important;
+  }
+  .about-banner {
+    padding-top: 80px;
+  }
+  .width-90 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .stat-card {
+    padding: 30px 20px;
+  }
+  .stat-card .stat-item {
+    width: 50%;
+  }
+  /* value section responsive css start */
+  .value-item-box {
+    flex-wrap: wrap;
+  }
+  .box-vision .box-info {
+    padding: 80px 0 10px 0;
+  }
+  .getintouch-box {
+    padding: 20px;
+  }
+  .df-btn {
+    padding: 13px 12px;
+  }
+
+  /* value section responsive css end */
+  /* testimonial section responsive css start */
+  .bg-testimonials::before {
+    right: 0;
+  }
+  .bg-testimonials .ml-20 {
+    margin-left: 0;
+  }
+  .bg-testimonials .ml-100 {
+    margin-left: 0;
+  }
+  /* testimonial section responsive css end */
+  /* subscribe section media css start */
+  .box-subscribe.about-box-subscribe {
+    background-image: none;
+  }
+  .box-subscribe.about-box-subscribe::before {
+    right: 30px;
+  }
+  .box-subscribe.about-box-subscribe::after {
+    bottom: 0;
+    left: 0;
+    height: 35px;
+    width: 246px;
+  }
+  .about-box-subscribe p {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .box-subscribe .form-subscribe {
+    padding: 3px;
+  }
+
+  .about-form-subscribe {
+    width: 100%;
+  }
+  /* career page responsive css start */
+  /* career hero section responsive css start */
+  .anim-img {
+    width: 60px;
+  }
+  .career .anim-img {
+    left: 0px;
+  }
+  .career-card .card-image {
+    max-width: 75px !important;
+  }
+  .partners-list li {
+    width: 50%;
+  }
+  .partners-list li img {
+    max-height: 27px;
+  }
+  /* career hero section responsive css end */
+  /* career page responsive css end */
+  .box-ads-1 {
+    background-size: auto 20%;
+    background-position: top 100% right 10%;
+  }
+  /* shop page media css start */
+  .shop-banner {
+    background-image: none;
+  }
+  .shop-banner h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .shop-banner::before {
+    width: 100%;
+  }
+  .box-filter-text {
+    flex-wrap: wrap;
+  }
+  .text-showing {
+    margin-bottom: 10px;
+    width: 100%;
+    margin-right: 0 !important;
+  }
+  .box-sortby {
+    place-content: flex-end;
+    width: 100%;
+    margin-right: 0 !important;
+  }
+  .dropdown-sort .btn {
+    padding: 7px 29px 7px 10px;
+    background-position: right 7px center;
+  }
+  .btn {
+    border-radius: 4px;
+  }
+  .box-sale {
+    padding: 20px;
+  }
+  .box-sale .box-img-left {
+    bottom: auto;
+    top: 15%;
+    transform: translateY(-5%);
+  }
+  .box-sale .box-img-left img {
+    width: 100px;
+  }
+  .box-sale .box-img-right img {
+    width: 100px;
   }
 }
